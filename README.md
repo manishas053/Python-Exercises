@@ -1,2 +1,3 @@
 # Python Exercise
-Python implementation of practice problems from exercism.io
+
+My Python implementation of practice problems from exercism.io.
