@@ -5,24 +5,18 @@
 ####################################################################################################
 
 k, p = map(int, raw_input().split())
-
-#print k
-#print p
 count = 0
-reverse = 0
 sum = 0
 for i in range (11, 100):
+    reverse = 0
     num = i
     while num > 0:
         rem = num % 10
         reverse = reverse * 10 + rem
         num = num / 10
     if reverse == i:
-        print reverse
         count += 1
-        #print count
         if count <= k:
             sum += i
-            #print sum
-#output = sum % p
-#print output
+output = sum % p
+print output
